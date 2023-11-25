@@ -1,0 +1,38 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.app__content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.search-bar {
+  margin-bottom: 20px;
+}
+
+.search-result,
+.playlist {
+  flex: 1;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-left: 10px;
+}
